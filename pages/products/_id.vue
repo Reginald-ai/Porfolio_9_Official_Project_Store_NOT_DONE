@@ -15,9 +15,20 @@
           </v-col>
         </v-row>
       </v-container>
+      <hr class="m-100" />
       <v-container>
-        <v-row row-md-6 row-sm-1 row-lg-4>
-          <v-col class=""> </v-col>
+        <v-row>
+          <v-col cols="12" sm="12" md="6">
+            <img
+              :src="require(`@/assets/img/id-img/${project.page.photoss}`)"
+              class="w-100"
+              alt=""
+            />
+          </v-col>
+          <v-col cols="12" sm="12" md="6">
+            <h1>{{ project.title }}</h1>
+            <p>{{ project.page.summary }}</p>
+          </v-col>
         </v-row>
       </v-container>
     </div>
@@ -45,5 +56,8 @@ export default {
   padding: 100px 0px;
   background: url("~assets/img/blob-scene-haikei (3).svg?inline") no-repeat;
   background-size: cover;
+}
+.m-100 {
+  margin: 100px 0px;
 }
 </style>

@@ -10,7 +10,8 @@ const state = () => ({
       category: "Html",
       page: {
         summary:
-          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
+          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?",
+        photoss: "1.png"
       }
     },
     {

@@ -118,15 +118,12 @@ export default {
       email: "",
       password: "",
       password2: "",
-      rules: {
-        age: [(val) => val < 10 || `I don't believe you!`],
-        animal: [(val) => (val || "").length > 0 || "This field is required"],
-        name: [(val) => (val || "").length > 0 || "This field is required"],
-        required: (value) => !!value || "Required.",
-        min: (v) => v.length >= 8 || "Min 8 characters",
-        emailMatch: () => `The email and password you entered don't match`,
-      },
     };
+  },
+  computed: {
+    rules() {
+      return this.$store.state.rules;
+    },
   },
   methods: {
     async register() {

@@ -81,7 +81,7 @@ export default {
   data() {
     return {
       drawer: false,
-      selectedItem: 1,
+      selectedItem: 0,
       items: [
         { text: "Home", icon: "mdi-home", url: "/" },
         { text: "Sources", icon: "mdi-account", url: "/Sources" },

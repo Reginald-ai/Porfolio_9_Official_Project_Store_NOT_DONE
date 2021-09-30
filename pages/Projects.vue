@@ -19,9 +19,9 @@
         <hr class="mb-5" />
         <v-row v-if="this.selected.length > 0" :key="compKey">
           <Cards
-            v-for="(filtered, index) in filtereds"
+            v-for="(pValues, index) in filtereds"
             :key="index"
-            :filtered="filtered"
+            :pValues="pValues"
           />
         </v-row>
         <div v-else>There are no post left</div>
@@ -143,6 +143,7 @@ export default {
           background-color: #f9a825 !important;
           border-color: #f9a825 !important;
         }
+
         .opacity-50 {
           opacity: 0.5;
         }

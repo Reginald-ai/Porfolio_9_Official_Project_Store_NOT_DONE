@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-100s">
+  <div class="pt-100s mb-100">
     <v-container>
       <!-- <Cards-Wrapper :projects="projects" /> -->
       <div class="projects">

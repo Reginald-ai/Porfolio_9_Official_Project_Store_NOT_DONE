@@ -21,11 +21,11 @@
           sm="12"
           md="6"
           lg="4"
-          xl="2"
+          xl="3"
         >
           <v-hover>
             <template v-slot:default="{ hover }">
-              <v-card class="mx-auto" max-width="344">
+              <v-card class="mx-auto">
                 <v-img
                   :src="require(`@/assets/img/id-sources/${source.src}`)"
                 ></v-img>

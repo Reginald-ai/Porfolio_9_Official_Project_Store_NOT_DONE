@@ -77,7 +77,7 @@ export default {
     // });
 
     console.log(this.$fire.auth.currentUser.uid);
-    console.log(this.$store.database);
+    console.log(this.$store.dbResult);
   },
   data() {
     return {};

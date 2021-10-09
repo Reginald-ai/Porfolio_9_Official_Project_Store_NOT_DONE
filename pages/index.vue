@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-100">
     <div class="hero">
       <v-container>
         <v-row align-md="center">
@@ -40,6 +40,27 @@
         </div>
       </v-container>
     </div>
+    <div class="aa-sources">
+      <v-container>
+        <h1>MIT Useful Sources</h1>
+        <hr class="mb-5" />
+        <v-row>
+          <Mcards
+            v-for="(source, i) in sources.slice(0, 8)"
+            :key="i"
+            :source="source"
+          />
+        </v-row>
+        <div class="see-more-wrp">
+          <h1 class="see-more">See more</h1>
+          <NuxtLink to="/Sources" class="text-none">
+            <v-avatar color="grey darken-4">
+              <v-icon dark>mdi-arrow-down</v-icon>
+            </v-avatar>
+          </NuxtLink>
+        </div>
+      </v-container>
+    </div>
     <div class="progress-d">
       <v-container>
         <h1 class="mb-2">My Development Skills</h1>
@@ -59,6 +80,7 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 import SvgBgIn from "@/assets/img/undraw_Hello_re_3evm.svg";
 import SvgBgProgress from "@/assets/img/undraw_work_in_progress.svg";
 export default {
@@ -77,15 +99,13 @@ export default {
     // });
 
     console.log(this.$fire.auth.currentUser.uid);
-    console.log(this.$store.database);
+    console.log(this.$store.dbResult);
   },
   data() {
     return {};
   },
   computed: {
-    projects() {
-      return this.$store.state.projects;
-    },
+    ...mapState(["projects", "sources"]),
   },
 };
 </script>
@@ -101,23 +121,7 @@ export default {
   h1 {
     padding: 0px 0px 10px 0px;
   }
-  .see-more-wrp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    .see-more {
-      padding-top: 40px;
-    }
-    .text-none {
-      text-decoration: none;
-      position: relative;
-      transition: all 0.4s ease;
-      &:hover {
-        transform: translateY(10px);
-      }
-    }
-  }
+
   .btn-yellow {
     height: 36px;
     padding: 0.8rem;
@@ -162,6 +166,23 @@ export default {
       right: 0;
       top: 0;
       transition: opacity 0.2s cubic-bezier(0.4, 0, 0.6, 1);
+    }
+  }
+}
+.see-more-wrp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .see-more {
+    padding-top: 40px;
+  }
+  .text-none {
+    text-decoration: none;
+    position: relative;
+    transition: all 0.4s ease;
+    &:hover {
+      transform: translateY(10px);
     }
   }
 }

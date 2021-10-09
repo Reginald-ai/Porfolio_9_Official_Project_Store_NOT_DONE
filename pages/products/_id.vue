@@ -4,7 +4,7 @@
       <v-container>
         <v-row align="center">
           <v-col cols="12" sm="12" lg="6">
-            <v-carousel cycle>
+            <v-carousel data-aos="fade-down" cycle>
               <v-carousel-item
                 v-for="(itemsP, i) in project.photos"
                 :key="i"
@@ -12,7 +12,13 @@
               ></v-carousel-item>
             </v-carousel>
           </v-col>
-          <v-col cols="12" sm="12" lg="6">
+          <v-col
+            cols="12"
+            sm="12"
+            lg="6"
+            data-aos-delay="1000"
+            data-aos="fade-left"
+          >
             <h1>{{ project.title }}</h1>
             <p>{{ project.page.summary }}</p>
             <p>{{ project.page.summary }}</p>
@@ -28,7 +34,7 @@
             <p>{{ project.page.summary }}</p>
           </v-col> -->
           <v-col cols="12" lg="6">
-            <v-card>
+            <v-card data-aos-delay="250" data-aos="fade-right">
               <v-list two-line>
                 <template v-for="(item, index) in items_2">
                   <v-subheader v-if="item.header" :key="item.header">
@@ -63,7 +69,7 @@
       <v-container>
         <v-row justify="center">
           <v-col cols="12" lg="6">
-            <div class="fedback-wrapper">
+            <div data-aos="fade-up" class="fedback-wrapper">
               <v-container>
                 <v-row justify="center">
                   <v-col cols="12">

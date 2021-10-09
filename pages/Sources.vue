@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-100">
+  <div class="pxt-100">
     <v-container>
       <div class="bb-sources">
         <h1>MIT Sources</h1>
@@ -14,52 +14,7 @@
       </div>
       <hr class="m-s100" />
       <v-row>
-        <v-col
-          v-for="(source, i) in wfiltered"
-          :key="i"
-          cols="12"
-          sm="12"
-          md="6"
-          lg="4"
-          xl="2"
-        >
-          <v-hover>
-            <template v-slot:default="{ hover }">
-              <v-card class="mx-auto" max-width="344">
-                <v-img
-                  :src="require(`@/assets/img/id-sources/${source.src}`)"
-                ></v-img>
-
-                <v-card-text>
-                  <h2 class="text-h6 primary--text">{{ source.title }}</h2>
-                  {{ source.text }}
-                </v-card-text>
-
-                <v-card-title class="align-base">
-                  <v-rating
-                    :value="source.value"
-                    dense
-                    color="orange"
-                    background-color="orange"
-                    hover
-                    class="mr-2"
-                  ></v-rating>
-                  <span class="primary--text text-subtitle-2">{{
-                    source.reviews
-                  }}</span>
-                </v-card-title>
-
-                <v-fade-transition>
-                  <v-overlay v-if="hover" absolute color="#036358">
-                    <a :href="source.href" target="_blank" class="btns btn-6"
-                      >See more info</a
-                    >
-                  </v-overlay>
-                </v-fade-transition>
-              </v-card>
-            </template>
-          </v-hover>
-        </v-col>
+        <Mcards v-for="(source, i) in wfiltered" :key="i" :source="source" />
       </v-row>
     </v-container>
   </div>
@@ -237,5 +192,9 @@ export default {
 }
 .m-s100 {
   margin-bottom: 50px;
+}
+.pxt-100 {
+  padding: 100px 0px;
+  margin-bottom: 150px;
 }
 </style>

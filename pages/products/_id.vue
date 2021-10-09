@@ -1,5 +1,5 @@
 <template>
-  <div class="py-100">
+  <div class="py-100 mb-100">
     <div v-if="project">
       <v-container>
         <v-row align="center">
@@ -16,7 +16,7 @@
             cols="12"
             sm="12"
             lg="6"
-            data-aos-delay="1000"
+            data-aos-delay="600"
             data-aos="fade-left"
           >
             <h1>{{ project.title }}</h1>
@@ -34,7 +34,7 @@
             <p>{{ project.page.summary }}</p>
           </v-col> -->
           <v-col cols="12" lg="6">
-            <v-card data-aos-delay="250" data-aos="fade-right">
+            <v-card data-aos-delay="700" data-aos="fade-right">
               <v-list two-line>
                 <template v-for="(item, index) in items_2">
                   <v-subheader v-if="item.header" :key="item.header">

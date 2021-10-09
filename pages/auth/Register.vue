@@ -1,5 +1,5 @@
 script<template>
-  <div class="pt-100c">
+  <div class="pt-100c mb-100">
     <v-container>
       <div class="wrap-dd">
         <v-snackbar

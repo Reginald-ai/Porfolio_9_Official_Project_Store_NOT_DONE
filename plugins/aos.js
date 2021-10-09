@@ -3,7 +3,7 @@ import AOS from "aos";
 export default ({ app }, inject) => {
   app.AOS = new AOS.init({
     once: true,
-    duration: 1000,
-    offset: 400
+    duration: 500,
+    offset: 200
   });
 };

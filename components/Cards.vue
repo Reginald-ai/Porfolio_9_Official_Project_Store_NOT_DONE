@@ -1,9 +1,8 @@
 <template>
-  <v-col md="6" sm="12" lg="4" xl="3" cols="12">
-    <v-card class="mx-auto" max-width="400">
+  <v-col md="6" sm="6" lg="4" xl="3" cols="12">
+    <v-card class="mx-auto" max-width="400px">
       <v-img
         class="white--text align-end"
-        height="200px"
         :src="require(`@/assets/img/png-svg/${pValues.photo}`)"
       >
       </v-img>

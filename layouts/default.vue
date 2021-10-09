@@ -1,13 +1,17 @@
 <template>
   <v-app dark>
-    <v-main>
-      <Nav />
-      <Nuxt />
-      <Footer />
-    </v-main>
+    <Nav />
+    <Nuxt />
+    <Footer />
   </v-app>
 </template>
 
 <script>
 export default {};
 </script>
+
+<style lang="scss">
+.v-application {
+  font-family: "Poppins", sans-serif !important;
+}
+</style>

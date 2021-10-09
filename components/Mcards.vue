@@ -1,8 +1,8 @@
 <template>
-  <v-col cols="12" sm="12" md="6" lg="4" xl="3">
+  <v-col cols="12" sm="6" md="6" lg="4" xl="3">
     <v-hover>
       <template v-slot:default="{ hover }">
-        <v-card class="mx-auto">
+        <v-card class="mx-auto" max-width="400px">
           <v-img
             :src="require(`@/assets/img/id-sources/${source.src}`)"
           ></v-img>

@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <div class="pt-100">
+    <div class="pt-100 mb-100">
       <h1>Welcome to Dashbord</h1>
       <p>Sign up rexsahvan</p>
       <div class="wrap-dd">

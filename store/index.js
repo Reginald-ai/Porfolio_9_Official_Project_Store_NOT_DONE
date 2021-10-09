@@ -1,4 +1,58 @@
 const state = () => ({
+  //skills
+  progress: [
+    {
+      titleN: "Html Development - Fundamentals",
+      num: 99,
+      color: "deep-orange"
+    },
+    {
+      titleN: "Cascading Style Sheets Development - Fundamentals",
+      num: 95,
+      color: "light-blue darken-4"
+    },
+    {
+      titleN: "Syntactically Awesome Style Sheets Development - Fundamentals",
+      num: 95,
+      color: "purple accent-4"
+    },
+    {
+      titleN: "Javascript Development - Fundamentals",
+      num: 75,
+      color: "lime darken-3"
+    },
+    {
+      titleN: "Ui / Ux Development - Fundamentals",
+      num: 80,
+      color: "deep-purple darken-3 "
+    },
+    {
+      titleN: "Webpack Development- Module Bundler  ",
+      num: 78,
+      color: "grey darken-2"
+    },
+    {
+      titleN: "Git / Yarn / Github / Gitlab Development - Version Control",
+      num: 80,
+      color: "red darken-1"
+    },
+    {
+      titleN: "Gsap / Third.js / Anime.js Development - Animation",
+      num: 60,
+      color: "blue-grey darken-3"
+    },
+    {
+      titleN: "Vue / Nuxt / Vuetify Development - Frontend Framework",
+      num: 80,
+      color: "green accent-4"
+    },
+    {
+      titleN: "Firebase Development - Backend Framework",
+      num: 20,
+      color: "amber darken-3"
+    }
+  ],
+
   //for projects web projects
   projects: [
     {

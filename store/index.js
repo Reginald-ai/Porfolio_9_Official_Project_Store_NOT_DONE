@@ -72,6 +72,7 @@ const state = () => ({
         {
           src: "1.png"
         },
+
         {
           src: "2.png"
         },
@@ -160,7 +161,7 @@ const state = () => ({
     },
     {
       id: 5,
-      title: "Website Gallery",
+      title: "GG Gallery",
       subtitle: "Html Css Vue ",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
@@ -182,8 +183,8 @@ const state = () => ({
     },
     {
       id: 6,
-      title: "Shortly",
-      subtitle: "Api Html Css Js",
+      title: "Earth Gates",
+      subtitle: "Nuxt Html Css Js",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
       photo: "Social-Media-With-Phone_small.png",
@@ -195,19 +196,17 @@ const state = () => ({
       //for carousel
       photos: [
         {
-          src: "1.png"
+          src: "16.png"
         },
         {
-          src: "2.png"
+          src: "17.png"
         },
-        {
-          src: "3.png"
-        }
+
       ]
     },
     {
       id: 7,
-      title: "Web Fire",
+      title: "SpaceY",
       subtitle: "Nuxt Css Js Html ",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
@@ -220,13 +219,13 @@ const state = () => ({
       //for carousel
       photos: [
         {
-          src: "1.png"
+          src: "18.png"
         },
         {
-          src: "2.png"
+          src: "19.png"
         },
         {
-          src: "3.png"
+          src: "20.png"
         }
       ]
     },

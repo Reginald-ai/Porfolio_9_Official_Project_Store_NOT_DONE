@@ -3,19 +3,10 @@
     <div v-if="project">
       <v-container>
         <v-row align="center">
-          <v-col cols="12" sm="12" lg="6">
-            <v-carousel data-aos="fade-down" cycle>
-              <v-carousel-item
-                v-for="(itemsP, i) in project.photos"
-                :key="i"
-                :src="require(`@/assets/img/id-img/${itemsP.src}`)"
-              ></v-carousel-item>
-            </v-carousel>
-          </v-col>
           <v-col
             cols="12"
             sm="12"
-            lg="6"
+            lg="12"
             data-aos-delay="600"
             data-aos="fade-left"
           >
@@ -23,6 +14,20 @@
             <p>{{ project.page.summary }}</p>
             <p>{{ project.page.summary }}</p>
             <v-btn large color="primary"> Visit now!! </v-btn>
+          </v-col>
+          <v-col cols="12" sm="12" lg="12">
+            <v-carousel data-aos="fade-down">
+              <v-carousel-item
+                v-for="(itemsP, i) in project.photos"
+                :key="i"
+                :src="require(`@/assets/img/id-img/${itemsP.src}`)"
+              ></v-carousel-item>
+            </v-carousel>
+            <!-- <img
+              :src="require(`@/assets/img/id-img/${project.photos.src}`)"
+              class="w-100"
+              alt=""
+            /> -->
           </v-col>
         </v-row>
       </v-container>
@@ -149,4 +154,15 @@ export default {
   padding: 15px;
   position: relative;
 }
+
+// .v-window {
+//   height: 355px;
+//   .v-image__image--cover {
+//     background-size: contain;
+//   }
+//   .v-image {
+//     background: #fff;
+//     height: 355px !important;
+//   }
+// }
 </style>

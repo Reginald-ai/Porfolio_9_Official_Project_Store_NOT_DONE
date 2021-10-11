@@ -151,7 +151,92 @@
         </div>
       </v-container>
     </div>
-    <div class="contact-me"></div>
+    <div class="about-me">
+      <v-container>
+        <hr />
+        <v-row class="align-center">
+          <v-col>
+            <h1>About Me</h1>
+
+            <p>
+              Hi! I am Reginald Ivan P. Mangubat, a web designer/developer
+              focused on crafting great web experiences. Designing and Coding
+              have been my passion since the days I started working with
+              computers but I found myself into web design/development since
+              2019. I enjoy creating beautifully designed, intuitive and
+              functional websites.
+            </p>
+            <p>
+              I like to create and contribute to open source projects. That
+              helps me to learn a ton of new stuff, grow as a developer and
+              support other open source projects. Also I enjoy writing technical
+              things ✍️ at my blog.
+            </p>
+          </v-col>
+          <v-col>
+            <SvgBgAbout class="w-100" />
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
+    <div class="contact-me">
+      <v-container>
+        <hr />
+        <v-row class="ty-msg">
+          <v-col>
+            <h1 class="py-5">Thank you Messages</h1>
+            <p>
+              I will forever be grateful to you for your help. Thank you! Some
+              people deserve more than just a thank you. Just like you! Thanks
+              for everything. Thanking you from the core of my heart. I truly
+              appreciate you. My heart is overflowing with gratitude. Thanks
+              from the bottom of my heart!
+            </p>
+            <p>
+              I appreciate everything you do for me with so much care. Thank
+              you! Your thoughtfulness always touches my heart. Thanks a ton for
+              everything! Kindness is just what you do, and you do it so well!
+              Thank You! Thank you won’t be enough for what you’ve done for me.
+              But, let me try a little. Thanks a lot for your support!
+            </p>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
+    <div class="credits">
+      <v-container>
+        <h1>Credits Libraries I Use</h1>
+        <hr class="my-5" />
+
+        <v-row>
+          <v-col
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            cols="12"
+            sm="12"
+            md="6"
+            v-for="(credit, i) in credits"
+            :key="i"
+          >
+            <v-card elevation="2" outlined shaped>
+              <v-card-title>
+                {{ credit.title }}
+              </v-card-title>
+              <v-card-subtitle>
+                <p>{{ credit.category }}</p>
+              </v-card-subtitle>
+              <v-card-text>
+                {{ credit.text }}
+              </v-card-text>
+              <v-card-text>
+                {{ credit.text1 }}
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
   </div>
 </template>
 
@@ -159,10 +244,12 @@
 import { mapState } from "vuex";
 import SvgBgIn from "@/assets/img/undraw_Hello_re_3evm.svg";
 import SvgBgProgress from "@/assets/img/undraw_work_in_progress.svg";
+import SvgBgAbout from "@/assets/img/Group 1 flexie.svg";
 export default {
   components: {
     SvgBgIn,
     SvgBgProgress,
+    SvgBgAbout,
   },
   created() {
     console.log(this.$fire.auth.currentUser.uid);
@@ -196,6 +283,25 @@ export default {
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis",
         },
       ],
+      credits: [
+        {
+          title: "Vuetify",
+          category: "Vue UI Library",
+          text: "Material Design Framework Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No design skills required — everything you need to create amazing applications is at your fingertips.",
+        },
+        {
+          title: "Undraw.co / Svgrepo.com / Iradesing.co / flexiple.com",
+          category: " Images ",
+          text: "Browse 300.000+ SVG Vectors and Icons Explore, search and find the best fitting icons or vectors for your projects using wide variety vector library. Download free SVG Vectors for commercial use.",
+          text1:
+            "Create better designed websites, products and applications. Browse to find the images that fit your messaging, automagically customise the color to match your brand and use it as a normal image, embedded code or directly in your design workflow.",
+        },
+        {
+          title: "Aos Library",
+          category: " Js libary ",
+          text: "Animate On Scroll Library",
+        },
+      ],
     };
   },
   computed: {
@@ -206,7 +312,6 @@ export default {
 
 <style lang="scss">
 .mb-100 {
-  background: url(/_nuxt/assets/bg-curvy-desktop.953dbf39.svg);
   background-size: cover;
 }
 .hero {
@@ -335,5 +440,16 @@ export default {
       transform: translateY(10px);
     }
   }
+}
+.about-me {
+  padding: 50px 0px;
+}
+.contact-me {
+  .ty-msg {
+    padding: 50px 0px;
+  }
+}
+.credits {
+  padding: 50px 0px;
 }
 </style>

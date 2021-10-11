@@ -23,7 +23,7 @@
       <v-divider> </v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        {{ new Date().getFullYear() }} — <strong>Rexsahvan</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -37,4 +37,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang='scss'>
+.v-footer {
+}
+.v-application .indigo.lighten-1 {
+  background-color: #272727 !important;
+  color: #fff !important;
+}
+</style>

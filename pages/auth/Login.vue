@@ -49,7 +49,9 @@
                     <v-col cols="12">
                       <div class="d-flex">
                         <h4>Forgot Password?</h4>
-                        <NuxtLink to="/auth/ForgotEmail"> Click Here </NuxtLink>
+                        <NuxtLink class="pl-1" to="/auth/ForgotEmail">
+                          Click Here
+                        </NuxtLink>
                       </div>
                     </v-col>
                     <v-col cols="12">
@@ -62,7 +64,9 @@
                     <v-col cols="12">
                       <div class="d-flex">
                         <h4>Don't have account?</h4>
-                        <NuxtLink to="/auth/Register"> Create Here </NuxtLink>
+                        <NuxtLink class="pl-1" to="/auth/Register">
+                          Create Here
+                        </NuxtLink>
                       </div>
                     </v-col>
                     <div class="btn-21">

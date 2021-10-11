@@ -13,7 +13,9 @@
             <h1>{{ project.title }}</h1>
             <p>{{ project.page.summary }}</p>
             <p>{{ project.page.summary }}</p>
-            <v-btn large color="primary"> Visit now!! </v-btn>
+            <a :href="project.href" class="btns-ty" target="_blank">
+              Visit now!!
+            </a>
           </v-col>
           <v-col cols="12" sm="12" lg="12">
             <v-carousel data-aos="fade-down">
@@ -165,4 +167,39 @@ export default {
 //     height: 355px !important;
 //   }
 // }
+.btns-ty {
+  transition: all 0.15s ease;
+  color: #fff !important;
+  height: 44px;
+  min-width: 78px;
+  padding: 0 19.5555555556px;
+  background-color: #1976d2 !important;
+  border-color: #1976d2 !important;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-weight: 500;
+  letter-spacing: 0.0892857143em;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  text-decoration: none;
+  text-indent: 0.0892857143em;
+  text-transform: uppercase;
+  transition-duration: 0.28s;
+  transition-property: box-shadow, transform, opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  &:hover {
+    background: #1e85ec !important;
+  }
+}
 </style>

@@ -56,6 +56,7 @@ const state = () => ({
   //for projects web projects
   projects: [
     {
+      href:'https://porfolio-1-cebu-city.pages.dev/',
       id: 1,
       title: "Cebu City",
       subtitle: "Html Css ",
@@ -82,12 +83,13 @@ const state = () => ({
       ]
     },
     {
+      href:'https://porfolio-2-you-pro.pages.dev/',
       id: 2,
       title: "You pro",
       subtitle: "Html Css ",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
-      photo: "Ecommerce-With-Phone_small.png",
+      photo: "Web-Design-For-Linked-In_small.png",
       category: "Html",
       page: {
         summary:
@@ -110,12 +112,13 @@ const state = () => ({
       ]
     },
     {
+      href:'https://porfolio-3-semai-colon.pages.dev/',
       id: 3,
       title: "Semai Colon",
       subtitle: "Js Css Html ",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
-      photo: "High-Street-Flat_small.png",
+      photo: "Social-Media-With-Phone_small.png",
       category: "Html",
       page: {
         summary:
@@ -135,6 +138,7 @@ const state = () => ({
       ]
     },
     {
+      href:'https://porfolio-4-animewb.pages.dev/',
       id: 4,
       title: "Anime Wb",
       subtitle: "Css JS Html",
@@ -160,6 +164,7 @@ const state = () => ({
       ]
     },
     {
+      href:'https://porfolio-5-gg-gallery.pages.dev/',
       id: 5,
       title: "GG Gallery",
       subtitle: "Html Css Vue ",
@@ -182,12 +187,14 @@ const state = () => ({
       ]
     },
     {
+      href:'https://porfolio-6-nature.pages.dev/',
       id: 6,
       title: "Earth Gates",
       subtitle: "Nuxt Html Css Js",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
-      photo: "Social-Media-With-Phone_small.png",
+      photo: "High-Street-Flat_small.png",
+
       category: "Javascript",
       page: {
         summary:
@@ -205,6 +212,7 @@ const state = () => ({
       ]
     },
     {
+      href:'https://porfolio-7-space.pages.dev/',
       id: 7,
       title: "SpaceY",
       subtitle: "Nuxt Css Js Html ",
@@ -230,13 +238,14 @@ const state = () => ({
       ]
     },
     {
+      href:'https://porfolio-11-black-meravle.pages.dev/',
       id: 8,
-      title: "Cebu City",
-      subtitle: "Html Css ",
+      title: "Black Meravle",
+      subtitle: "Nuxt Html Css ",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
       photo: "Web-Design-For-Linked-In_small.png",
-      category: "Css",
+      category: "Nuxt",
       page: {
         summary:
           "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
@@ -244,16 +253,14 @@ const state = () => ({
       //for carousel
       photos: [
         {
-          src: "1.png"
+          src: "22.png"
         },
         {
-          src: "2.png"
-        },
-        {
-          src: "3.png"
+          src: "23.png"
         }
       ]
-    }
+    },
+
   ],
   //for sources page
   sources: [

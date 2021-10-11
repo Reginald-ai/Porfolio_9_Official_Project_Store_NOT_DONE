@@ -41,10 +41,10 @@
           </v-icon>
         </v-avatar> -->
       </ul>
-      <NuxtLink to="/auth/Login" class="text-light text-none text-nones">
+      <!-- <NuxtLink to="/auth/Login" class="text-light text-none text-nones">
         <v-icon color="#3ea6ff">mdi-account</v-icon>
         <span> Sign in </span>
-      </NuxtLink>
+      </NuxtLink> -->
     </v-app-bar>
     <v-navigation-drawer
       v-model="drawer"

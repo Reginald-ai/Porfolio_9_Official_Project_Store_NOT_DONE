@@ -34,16 +34,17 @@
         <li>
           <NuxtLink to="#"><v-icon>mdi-linkedin</v-icon></NuxtLink>
         </li>
-        <NuxtLink to="/auth/Login" class="text-light text-none">
-          <v-icon color="#3ea6ff">mdi-account</v-icon>
-          <span> Sign in </span>
-        </NuxtLink>
+
         <!-- <v-avatar class="avatar-ab2" size="39" color="blue-grey darken-3">
           <v-icon dark>
             mdi-account-circle
           </v-icon>
         </v-avatar> -->
       </ul>
+      <NuxtLink to="/auth/Login" class="text-light text-none text-nones">
+        <v-icon color="#3ea6ff">mdi-account</v-icon>
+        <span> Sign in </span>
+      </NuxtLink>
     </v-app-bar>
     <v-navigation-drawer
       v-model="drawer"
@@ -148,7 +149,10 @@ export default {
     display: flex;
     align-items: center;
     padding: 0;
-
+    display: none;
+    @include breakpoint-up(md) {
+      display: flex;
+    }
     li {
       list-style-type: none;
       padding: 0px 10px;
@@ -180,15 +184,16 @@ export default {
     .avatar-ab2 {
       margin-left: 20px;
     }
-    .text-none {
-      margin-left: 20px;
+  }
+  .text-nones {
+    margin-left: 20px;
 
-      display: flex;
-      padding: 5px;
-      border: 1px solid #3ea6ff;
-      color: #3ea6ff !important;
-      align-items: center;
-    }
+    display: flex;
+    padding: 5px;
+    border: 1px solid #3ea6ff;
+    color: #3ea6ff !important;
+    align-items: center;
+    white-space: nowrap;
   }
 }
 </style>

@@ -12,7 +12,6 @@
           >
             <h1>{{ project.title }}</h1>
             <p>{{ project.page.summary }}</p>
-            <p>{{ project.page.summary }}</p>
             <a :href="project.href" class="btns-ty" target="_blank">
               Visit now!!
             </a>

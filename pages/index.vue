@@ -58,9 +58,6 @@
               </div>
 
               <v-divider></v-divider>
-              <v-card-subtitle class="pb-5">
-                {{ work.subtext }}
-              </v-card-subtitle>
 
               <v-card-text class="text--primary">
                 <p>
@@ -273,26 +270,26 @@ export default {
         {
           href: "1-1.png",
           title: "Responsive",
-          subtext: "Lorem ipsum dolor sit amet consectetur.",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis",
+          subtext: "Responsive realy needed to make ",
+          text: "Responsive to make more elegant in different viewports",
         },
         {
           href: "2-2.png",
           title: "Creative Design",
           subtext: "Lorem ipsum dolor sit amet consectetur.",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis",
+          text: "Creative Design is one of the most important thing in web designing",
         },
         {
           href: "3-3.png",
           title: "Unique Layout",
           subtext: "Lorem ipsum dolor sit amet consectetur.",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis",
+          text: "Unique simply means an improved version of an already better product",
         },
         {
           href: "4-4.png",
           title: "Classic Design",
           subtext: "Lorem ipsum dolor sit amet consectetur.",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis",
+          text: 'I prefer classic design it still the best, there is a quote "The simplier the better"',
         },
       ],
       credits: [

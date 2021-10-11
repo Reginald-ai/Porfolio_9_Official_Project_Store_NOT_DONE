@@ -84,7 +84,9 @@ script<template>
                     <v-col cols="12">
                       <div class="d-flex">
                         <h4>Have a account?</h4>
-                        <NuxtLink to="/auth/Login"> Sign in Here </NuxtLink>
+                        <NuxtLink class="pl-1" to="/auth/Login">
+                          Sign in Here
+                        </NuxtLink>
                       </div>
                     </v-col>
                     <v-btn class="ma-2" color="dark" @click.prevent="register">
@@ -217,4 +219,3 @@ const createUser = await firebase
             this.error = true;
             this.errorMsg = err.message;
           });
-      

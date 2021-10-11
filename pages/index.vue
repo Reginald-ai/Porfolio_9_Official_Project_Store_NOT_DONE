@@ -130,14 +130,26 @@
         <h1 class="mb-2">My Development Skills</h1>
         <hr class="my-5" />
         <v-row>
-          <v-col data-aos="fade-up" data-aos-delay="600" sm="12" lg="6">
+          <v-col
+            data-aos="fade-up"
+            data-aos-delay="600"
+            cols="12"
+            sm="12"
+            md="6"
+          >
             <Progress
               v-for="(progres, index) in progress.slice(0, 4)"
               :key="index"
               :progres="progres"
             />
           </v-col>
-          <v-col data-aos="fade-left" data-aos-delay="500" sm="12" lg="6">
+          <v-col
+            data-aos="fade-left"
+            data-aos-delay="500"
+            cols="12"
+            sm="12"
+            md="6"
+          >
             <SvgBgProgress class="w-100" />
           </v-col>
         </v-row>
@@ -155,7 +167,7 @@
       <v-container>
         <hr />
         <v-row class="align-center">
-          <v-col>
+          <v-col cols="12" sm="12" md="6">
             <h1>About Me</h1>
 
             <p>
@@ -173,7 +185,7 @@
               things ✍️ at my blog.
             </p>
           </v-col>
-          <v-col>
+          <v-col cols="12" sm="12" md="6">
             <SvgBgAbout class="w-100" />
           </v-col>
         </v-row>
@@ -450,6 +462,6 @@ export default {
   }
 }
 .credits {
-  padding: 50px 0px;
+  padding: 50px 0px 200px 0px;
 }
 </style>

@@ -9,8 +9,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - nuxt-firebase-form",
-    title: "nuxt-firebase-form",
+    titleTemplate: "R | Rexsahvan",
+    title: "Rexsahvan",
     htmlAttrs: {
       lang: "en"
     },
@@ -21,7 +21,7 @@ export default {
       { name: "format-detection", content: "telephone=no" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
       {
         href: "https://fonts.googleapis.com/css2?family=Poppins&display=swap",
         rel: "stylesheet"

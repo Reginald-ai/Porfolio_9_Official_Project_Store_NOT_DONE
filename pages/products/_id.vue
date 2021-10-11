@@ -164,8 +164,5 @@ export default {
 //     background: #fff;
 //     height: 355px !important;
 //   }
-//   .v-image__image {
-//     background-position: none;
-//   }
 // }
 </style>

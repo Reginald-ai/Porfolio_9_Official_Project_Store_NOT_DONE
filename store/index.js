@@ -61,12 +61,12 @@ const state = () => ({
       title: "Cebu City",
       subtitle: "Html Css ",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
+        "One of the first projects I've made way back 2020. It may not the best but I certainly enjoy making it. . . ",
       photo: "Calendar-Poster-For-Facebook_small.png",
       category: "Html",
       page: {
         summary:
-          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
+          "One of the first projects I've made way back 2020. It may not the best but I certainly enjoy making it, Still need some improvements, I rember making this thing was a huge amount of time no libray just using position absolute to align things well, I guess it's realy true the first step that I've made back then was realy hard to be self-taught developer, looking back at that time dam how did I survive? maybe there is one of my soul telling me that I'll be better someday."
       },
       //for carousel
       photos: [
@@ -88,12 +88,12 @@ const state = () => ({
       title: "You pro",
       subtitle: "Html Css ",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
+        "One of my first animation websites, I realy enjoy the animation that I learned from youtube ",
       photo: "Web-Design-For-Linked-In_small.png",
       category: "Html",
       page: {
         summary:
-          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
+          "I learned a lot from youtube, It may not the most complex animation today, but still I'm proud of it, maybe someday I'll make some imporvements😅 , I remeber making this thing was quite hard I was knew to css key frames and I was advised to use libray to make it easier, but still I just use keyframse I don't know maybe I'm tired learning gsap and anime.js, I'm a bit weak at animating, But I hope that someday I will improved.  "
       },
       //for carousel
       photos: [
@@ -117,12 +117,12 @@ const state = () => ({
       title: "Semai Colon",
       subtitle: "Js Css Html ",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
+        "One of the best websites I made so far my 3 months experience from html css and ux/ui gain me alot knowledge. ",
       photo: "Social-Media-With-Phone_small.png",
       category: "Html",
       page: {
         summary:
-          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
+          "One of the best websites I made so far my 3 months experience from html css and ux/ui gain me alot knowledge. at that time I learned figma adobe xd as a self taught developer. "
       },
       //for carousel
       photos: [
@@ -143,12 +143,12 @@ const state = () => ({
       title: "Anime Wb",
       subtitle: "Css JS Html",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
+        "I'm so fan on anime websites I can't help making one for myself. but still need some impovements",
       photo: "House-Flat_small.png",
       category: "Css",
       page: {
         summary:
-          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
+          "I realy love anime, I spend half of my time watching some bleach, naruto, onepice, akami gakill, etc, That's why I decided to make one for myslef. I remember making this thing was quite exitement I wanted to cover up everything like manga,web novel, light novel , and  I realize back then I still need learned backend or api, Instead of hard coding bunch of data, kinda sad for myself I hope i will imporved"
       },
       //for carousel
       photos: [
@@ -169,12 +169,13 @@ const state = () => ({
       title: "GG Gallery",
       subtitle: "Html Css Vue ",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
-      photo: "Park-Flat-Design_small.png",
+        "One of the first vue projects I've made, I was thinking back then to put some gallery pictures that I loved",
+      photo: "High-Street-Flat_small.png",
+
       category: "Html",
       page: {
         summary:
-          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
+          "I was thining back then what if I make my own photos storage of gallery instead of uploading it on facebook and other's social platform, Well I tried but backend still needed I can't help myself for implanting bunch of data in vscode. I got idea still needed some time to fully run this thing. I remember making this thing was super hard in vue cli, I was knew to vue cli but I managed to get the grasp of it, I realy think hard how to use share compoenents and how to use vuex store etc, I also got stuck at stackoverflow for countless hours. glad I've finnish this thing way back. "
       },
       //for carousel
       photos: [
@@ -192,13 +193,13 @@ const state = () => ({
       title: "Earth Gates",
       subtitle: "Nuxt Html Css Js",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
-      photo: "High-Street-Flat_small.png",
+        "I made this website to help people and make them realize that earth also need care and help",
+      photo: "Park-Flat-Design_small.png",
 
       category: "Javascript",
       page: {
         summary:
-          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
+          "there's no lies about global warming, deforestaion, floading, etc. I want to make one for myself to see how I value lifes on earth. When I got old I realize how life is short with just blink of an eye, That's the time I realize that I need to do something good for me and family other's, I realized that we should value our earth more than it should be, we won't be born if earth dosen't have the essential of life.  "
       },
       //for carousel
       photos: [
@@ -217,12 +218,12 @@ const state = () => ({
       title: "SpaceY",
       subtitle: "Nuxt Css Js Html ",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
+        "when I was a kid,I always wanted to catch a star, but when I grow old it become Imposible but I keep trying.",
       photo: "Web-Design-Flat_small.png",
       category: "Nuxt",
       page: {
         summary:
-          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
+          "I told myself if I can't catch it then I will make it. that's why I decided to make a website about plantes, starts, etc. I also love watching documentary about some new mision on nasa and space x, I'm a huge fan, I always need some answer from space like, how did they eat? how they breath? I wanted to learn more about more upcoming mision and knowledge discovery that might help us our daily lives."
       },
       //for carousel
       photos: [
@@ -243,12 +244,12 @@ const state = () => ({
       title: "Black Meravle",
       subtitle: "Nuxt Html Css ",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eligendi doloremque et at?",
+        "Yeah one of my best landing page I've made, but still need some more idea to put some pages ",
       photo: "Web-Design-For-Linked-In_small.png",
       category: "Nuxt",
       page: {
         summary:
-          "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum repellendus vel cupiditate doloremque. Et, natus autem nobis accusamus cumque sit sed dolore hic quae temporibus iure quod consequatur eum, corporis nam incidunt eligendi quas. Eius molestiae corrupti corporis iure vitae eos soluta officia architecto eligendi officiis mollitia, neque maxime, suscipit minima magni nemo iste omnis eum consequatur dolor culpa?"
+          "I tried many landing pages, but this one is in the bag, This is so special that I can't forget how I spend so much time just to desgin this website on figma, but still need some new pages, currenly in developement. I got hard time thinking new styles and animation and I always searching for new trends. But still I can't decide maybe someday. I remember making this thing in nuxt that I almost forgot that it has auto imports components😄 maybe I was just tired at that time."
       },
       //for carousel
       photos: [

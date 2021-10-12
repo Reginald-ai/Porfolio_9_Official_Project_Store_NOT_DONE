@@ -83,7 +83,7 @@
         <v-row>
           <Cards
             data-aos="flip-right"
-            v-for="(pValues, index) in projects"
+            v-for="(pValues, index) in projects.slice(0, 8)"
             :pValues="pValues"
             :key="index"
           />

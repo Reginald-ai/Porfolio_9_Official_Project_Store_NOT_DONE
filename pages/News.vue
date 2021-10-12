@@ -64,7 +64,7 @@ export default {
   },
   async asyncData({ app }) {
     const { articles } = await app.$axios.$get(
-      "https://newsapi.org/v2/everything?q=tesla&from=2021-09-11&sortBy=publishedAt&apiKey=966de86fece64c47a13363a9ffe70613"
+      "https://newsapi.org/v2/everything?q=tesla&from=2021-09-12&sortBy=publishedAt&apiKey=966de86fece64c47a13363a9ffe70613"
     );
     return { articles };
   },

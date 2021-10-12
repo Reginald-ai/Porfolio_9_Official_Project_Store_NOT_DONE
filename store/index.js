@@ -56,7 +56,7 @@ const state = () => ({
   //for projects web projects
   projects: [
     {
-      href:'https://porfolio-1-cebu-city.pages.dev/',
+      href: "https://porfolio-1-cebu-city.pages.dev/",
       id: 1,
       title: "Cebu City",
       subtitle: "Html Css ",
@@ -83,7 +83,7 @@ const state = () => ({
       ]
     },
     {
-      href:'https://porfolio-2-you-pro.pages.dev/',
+      href: "https://porfolio-2-you-pro.pages.dev/",
       id: 2,
       title: "You pro",
       subtitle: "Html Css ",
@@ -112,7 +112,7 @@ const state = () => ({
       ]
     },
     {
-      href:'https://porfolio-3-semai-colon.pages.dev/',
+      href: "https://porfolio-3-semai-colon.pages.dev/",
       id: 3,
       title: "Semai Colon",
       subtitle: "Js Css Html ",
@@ -122,7 +122,7 @@ const state = () => ({
       category: "Html",
       page: {
         summary:
-          "One of the best websites I made so far my 3 months experience from html css and ux/ui gain me alot knowledge. at that time I learned figma adobe xd as a self taught developer. "
+          "One of the best ui/ux website I've made so far, I remember making this thing that I had to spend bunch of time creating waves and finding MIT sources because you know I don't know to draw, Thanks to them they are life saver, becuase if not I will be still tuck creating this waves. I try my best to look it more beatiful and use some fading scroll effect I had trouble a bit but I managed to get it done, It still need some improvements   "
       },
       //for carousel
       photos: [
@@ -138,8 +138,35 @@ const state = () => ({
       ]
     },
     {
-      href:'https://porfolio-4-animewb.pages.dev/',
+      href: "https://porfolio-3-semai-colon.pages.dev/",
       id: 4,
+      title: "Food Store",
+      subtitle: "Js Css Html ",
+      description:
+        "One of the food websites I made so far my 3 months experience from html css and ux/ui gain me alot knowledge. ",
+      photo:
+        "vector-illustration-flat-style-grocery-store-concept-supermarket-different-177590654 1.png",
+      category: "Html",
+      page: {
+        summary:
+          "I Learn so much in youtube that I decide to make one of my own food website, I remember making this thing is realy hard to a newbie js I've been stuck for couple of days just to figure out something.  I try my best to manipulate dom elements and using local storage to store data & etc. At that time I was using plain js without framework js, but i managed to make it from scratch. But still need some improvements, I will not stop learning and progressing to future "
+      },
+      //for carousel
+      photos: [
+        {
+          src: "8.png"
+        },
+        {
+          src: "9.png"
+        },
+        {
+          src: "10.png"
+        }
+      ]
+    },
+    {
+      href: "https://porfolio-4-animewb.pages.dev/",
+      id: 5,
       title: "Anime Wb",
       subtitle: "Css JS Html",
       description:
@@ -164,8 +191,8 @@ const state = () => ({
       ]
     },
     {
-      href:'https://porfolio-5-gg-gallery.pages.dev/',
-      id: 5,
+      href: "https://porfolio-5-gg-gallery.pages.dev/",
+      id: 6,
       title: "GG Gallery",
       subtitle: "Html Css Vue ",
       description:
@@ -188,8 +215,8 @@ const state = () => ({
       ]
     },
     {
-      href:'https://porfolio-6-nature.pages.dev/',
-      id: 6,
+      href: "https://porfolio-6-nature.pages.dev/",
+      id: 7,
       title: "Earth Gates",
       subtitle: "Nuxt Html Css Js",
       description:
@@ -208,13 +235,12 @@ const state = () => ({
         },
         {
           src: "17.png"
-        },
-
+        }
       ]
     },
     {
-      href:'https://porfolio-7-space.pages.dev/',
-      id: 7,
+      href: "https://porfolio-7-space.pages.dev/",
+      id: 8,
       title: "SpaceY",
       subtitle: "Nuxt Css Js Html ",
       description:
@@ -239,8 +265,8 @@ const state = () => ({
       ]
     },
     {
-      href:'https://porfolio-11-black-meravle.pages.dev/',
-      id: 8,
+      href: "https://porfolio-11-black-meravle.pages.dev/",
+      id: 9,
       title: "Black Meravle",
       subtitle: "Nuxt Html Css ",
       description:
@@ -260,8 +286,7 @@ const state = () => ({
           src: "23.png"
         }
       ]
-    },
-
+    }
   ],
   //for sources page
   sources: [

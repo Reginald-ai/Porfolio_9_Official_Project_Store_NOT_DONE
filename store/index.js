@@ -284,7 +284,30 @@ const state = () => ({
           src: "23.png"
         }
       ]
-    }
+    },
+    {
+      href: "/auth/Login",
+      id: 10,
+      title: "Login Test",
+      subtitle: "Nuxt Html Css ",
+      description:
+        "One of the best ui login page I've created,but still in development it will take some time to finnish.  ",
+      photo: "login.png",
+      category: "Nuxt",
+      page: {
+        summary:
+          "This login page is just a testing for my skill in backend, I did not put some security on it , don't put to much effort in your password or put your bank password  "
+      },
+      //for carousel
+      photos: [
+        {
+          src: "27.png"
+        },
+        {
+          src: "28.png"
+        }
+      ]
+    },
   ],
   //for sources page
   sources: [

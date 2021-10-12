@@ -138,7 +138,7 @@ const state = () => ({
       ]
     },
     {
-      href: "https://porfolio-3-semai-colon.pages.dev/",
+      href: "https://porfolio-12-food-store.pages.dev/",
       id: 4,
       title: "Food Store",
       subtitle: "Js Css Html ",
@@ -154,14 +154,12 @@ const state = () => ({
       //for carousel
       photos: [
         {
-          src: "8.png"
+          src: "25.png"
         },
         {
-          src: "9.png"
+          src: "26.png"
         },
-        {
-          src: "10.png"
-        }
+
       ]
     },
     {

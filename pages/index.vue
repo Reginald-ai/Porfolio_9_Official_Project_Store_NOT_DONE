@@ -5,7 +5,7 @@
         <v-row align-md="center">
           <v-col class="dd-me">
             <h2 class="text-me">
-              I’m Reginald Ivan P. Mangubat, an , <br />
+              I’m Reginald Ivan P. Mangubat, a <br />
               <span>Self-Taught Web Developer</span>
             </h2>
           </v-col>

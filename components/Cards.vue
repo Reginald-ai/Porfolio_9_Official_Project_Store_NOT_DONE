@@ -21,7 +21,7 @@
 
         <NuxtLink
           class="btn-yellow"
-          :to="`/products/${pValues.id}`"
+          :to="`/projects/${pValues.id}`"
           color="orange"
           text
         >
@@ -34,7 +34,7 @@
 
 <script>
 export default {
-  props: ["pValues"],
+  props: ["pValues"]
 };
 </script>
 

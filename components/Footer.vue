@@ -32,14 +32,12 @@
 <script>
 export default {
   data: () => ({
-    icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
-  }),
+    icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"]
+  })
 };
 </script>
 
-<style lang='scss'>
-.v-footer {
-}
+<style lang="scss">
 .v-application .indigo.lighten-1 {
   background-color: #272727 !important;
   color: #fff !important;

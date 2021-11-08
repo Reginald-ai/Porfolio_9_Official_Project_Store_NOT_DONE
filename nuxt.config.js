@@ -25,7 +25,16 @@ export default {
       {
         href: "https://fonts.googleapis.com/css2?family=Poppins&display=swap",
         rel: "stylesheet"
+      },
+      {
+        href: "https://fonts.googleapis.com/css2?family=DM+Sans&display=swap",
+        rel: "stylesheet"
       }
+      // {
+      //   href:
+      //     "https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap",
+      //   rel: "stylesheet"
+      // }
     ]
   },
 

@@ -5,7 +5,7 @@
         <v-row align-md="center">
           <v-col class="dd-me">
             <h2 class="text-me">
-              I’m Reginald Ivan P. Mangubat, a <br />
+              I’m Reginald Ivan P. Mangubat , a <br />
               <span>Self-Taught Web Developer</span>
             </h2>
           </v-col>
@@ -208,6 +208,11 @@
               Thank You! Thank you won’t be enough for what you’ve done for me.
               But, let me try a little. Thanks a lot for your support!
             </p>
+            <p>Sincerely,
+
+</p>
+p
+
           </v-col>
         </v-row>
       </v-container>
@@ -258,7 +263,7 @@ export default {
   components: {
     SvgBgIn,
     SvgBgProgress,
-    SvgBgAbout
+    SvgBgAbout,
   },
 
   data() {
@@ -268,56 +273,51 @@ export default {
           href: "1-1.png",
           title: "Responsive",
           subtext: "Responsive realy needed to make ",
-          text: "Responsive to make more elegant in different viewports"
+          text: "Responsive to make more elegant in different viewports",
         },
         {
           href: "2-2.png",
           title: "Creative Design",
           subtext: "Lorem ipsum dolor sit amet consectetur.",
-          text:
-            "Creative Design is one of the most important thing in web designing"
+          text: "Creative Design is one of the most important thing in web designing",
         },
         {
           href: "3-3.png",
           title: "Unique Layout",
           subtext: "Lorem ipsum dolor sit amet consectetur.",
-          text:
-            "Unique simply means an improved version of an already better product"
+          text: "Unique simply means an improved version of an already better product",
         },
         {
           href: "4-4.png",
-          title: "Fast Developement",
+          title: "Classic Design",
           subtext: "Lorem ipsum dolor sit amet consectetur.",
-          text:
-            'I prefer Fast develop it still the best, there is a quote "The simplier the better"'
-        }
+          text: 'I prefer classic design it still the best, there is a quote "The simplier the better"',
+        },
       ],
       credits: [
         {
           title: "Vuetify",
           category: "Vue UI Library",
-          text:
-            "Material Design Framework Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No design skills required — everything you need to create amazing applications is at your fingertips."
+          text: "Material Design Framework Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No design skills required — everything you need to create amazing applications is at your fingertips.",
         },
         {
           title: "Undraw.co / Svgrepo.com / Iradesing.co / flexiple.com",
           category: " Images ",
-          text:
-            "Browse 300.000+ SVG Vectors and Icons Explore, search and find the best fitting icons or vectors for your projects using wide variety vector library. Download free SVG Vectors for commercial use.",
+          text: "Browse 300.000+ SVG Vectors and Icons Explore, search and find the best fitting icons or vectors for your projects using wide variety vector library. Download free SVG Vectors for commercial use.",
           text1:
-            "Create better designed websites, products and applications. Browse to find the images that fit your messaging, automagically customise the color to match your brand and use it as a normal image, embedded code or directly in your design workflow."
+            "Create better designed websites, products and applications. Browse to find the images that fit your messaging, automagically customise the color to match your brand and use it as a normal image, embedded code or directly in your design workflow.",
         },
         {
           title: "Aos Library",
           category: " Js libary ",
-          text: "Animate On Scroll Library"
-        }
-      ]
+          text: "Animate On Scroll Library",
+        },
+      ],
     };
   },
   computed: {
-    ...mapState(["projects", "sources", "progress"])
-  }
+    ...mapState(["projects", "sources", "progress"]),
+  },
 };
 </script>
 

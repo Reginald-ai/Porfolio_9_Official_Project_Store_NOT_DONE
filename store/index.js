@@ -544,9 +544,10 @@ const state = () => ({
   //todo
   schemes: [
     {
-      id: 1,
+      id: "Nuxt",
       img: "1.png",
       title: "Nuxt",
+      ref: "https://nuxtjs.org/docs/features/configuration/",
       text: "Nuxt Quick Start up Guide  ",
       text1: "Create Nuxt App",
       text2: "sass-loader",
@@ -592,12 +593,12 @@ const state = () => ({
       }`
     },
     {
-      id: 2,
+      id: "Vite",
       img: "2.png",
       title: "Vite",
       text: "Vite Guid Quick Start up",
       text1: "Create Nuxt App",
-      n1: "npm vite@latest"
+      n1: "npm init vite@latest"
     }
   ],
 

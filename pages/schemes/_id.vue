@@ -15,6 +15,9 @@
                 <ul>
                   <li>{{ schemes.n2 }}</li>
                   <li>{{ schemes.n3 }}</li>
+                  <li>
+                    <a :href="schemes.ref" target="_blank">{{ schemes.ref }}</a>
+                  </li>
                 </ul>
               </li>
               <li>

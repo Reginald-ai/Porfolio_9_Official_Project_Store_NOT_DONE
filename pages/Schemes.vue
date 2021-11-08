@@ -5,6 +5,7 @@
         <v-row>
           <v-col>
             <h1>My Scheme</h1>
+            <p></p>
             <hr />
           </v-col>
         </v-row>
@@ -44,7 +45,7 @@
 
               <v-card-actions>
                 <v-btn color="orange" text> Share </v-btn>
-                <NuxtLink :to="`/scheme/${scheme.id}`" color="orange" text>
+                <NuxtLink :to="`/schemes/${scheme.id}`" color="orange" text>
                   Explore
                 </NuxtLink>
               </v-card-actions>
@@ -59,24 +60,13 @@
 <script>
 export default {
   data() {
-    return {
-      schemes: [
-        {
-          img: "1.png",
-          title: "Nuxt",
-          text: "Nuxt Guid Quick Start up",
-          id: 1
-        },
-        {
-          img: "2.png",
-          title: "Vite",
-          text: "Vite Guid Quick Start up",
-          id: 2
-        }
-      ]
-    };
+    return {};
   },
-  methods: {}
+  computed: {
+    schemes() {
+      return this.$store.state.schemes;
+    },
+  },
 };
 </script>
 

@@ -158,8 +158,7 @@ const state = () => ({
         },
         {
           src: "26.png"
-        },
-
+        }
       ]
     },
     {
@@ -307,7 +306,7 @@ const state = () => ({
           src: "28.png"
         }
       ]
-    },
+    }
   ],
   //for sources page
   sources: [
@@ -542,6 +541,66 @@ const state = () => ({
     }
   ],
 
+  //todo
+  schemes: [
+    {
+      id: 1,
+      img: "1.png",
+      title: "Nuxt",
+      text: "Nuxt Quick Start up Guide  ",
+      text1: "Create Nuxt App",
+      text2: "sass-loader",
+      text3: "vue-svg-loader",
+      text4: "nuxt-config.js",
+      n1: "npx create-nuxt-app",
+      n2: "npm install --save-dev pug pug-plain-loader",
+      n3: "npm install --save-dev sass sass-loader@10 fibers ",
+      n4: "npm install --save-dev vue-svg-loader vue-template-compiler",
+      n5: ` build: {
+        extend(config) {
+          const svgRule = config.module.rules.find(rule => rule.test.test(".svg"));
+
+          svgRule.test = /\.(png|jpe?g|gif|webp)$/;
+
+          config.module.rules.push({
+            test: /\.svg$/,
+            oneOf: [
+              {
+                resourceQuery: /inline/,
+                loader: "file-loader",
+                query: {
+                  name: "assets/[name].[hash:8].[ext]"
+                }
+              },
+              {
+                loader: "vue-svg-loader",
+                options: {
+                  // Optional svgo options
+                  svgo: {
+                    plugins: [{ removeViewBox: false }]
+                  }
+                }
+              }
+            ]
+          });
+        },
+        postcss: {
+          preset: {
+            stage: 3
+          }
+        }
+      }`
+    },
+    {
+      id: 2,
+      img: "2.png",
+      title: "Vite",
+      text: "Vite Guid Quick Start up",
+      text1: "Create Nuxt App",
+      n1: "npm vite@latest"
+    }
+  ],
+
   //end of value
   user: null,
   //display profile information
@@ -606,6 +665,9 @@ const getters = {
   },
   getProjects: state => id => {
     return state.projects.find(project => project.id == id);
+  },
+  getSchemes: state => id => {
+    return state.schemes.find(scheme => scheme.id == id);
   }
 };
 

@@ -553,6 +553,7 @@ const state = () => ({
       text2: "sass-loader",
       text3: "vue-svg-loader",
       text4: "nuxt-config.js",
+      text5: "https://www.npmjs.com/package/vue-svg-loader",
       n1: "npx create-nuxt-app",
       n2: "npm install --save-dev pug pug-plain-loader",
       n3: "npm install --save-dev sass sass-loader@10 fibers ",
@@ -596,9 +597,15 @@ const state = () => ({
       id: "Vite",
       img: "2.png",
       title: "Vite",
-      text: "Vite Guid Quick Start up",
-      text1: "Create Nuxt App",
-      n1: "npm init vite@latest"
+
+      text: "Vite Quick Start up Guide  "
+    },
+    {
+      id: "Third-js",
+      img: "3.png",
+      title: "Third-js",
+
+      text: "Third-js Quick Start up Guide  "
     }
   ],
 

@@ -544,14 +544,16 @@ const state = () => ({
   //todo
   schemes: [
     {
-      id: 1,
+      id: "Nuxt",
       img: "1.png",
       title: "Nuxt",
+      ref: "https://nuxtjs.org/docs/features/configuration/",
       text: "Nuxt Quick Start up Guide  ",
       text1: "Create Nuxt App",
       text2: "sass-loader",
       text3: "vue-svg-loader",
       text4: "nuxt-config.js",
+      text5: "https://www.npmjs.com/package/vue-svg-loader",
       n1: "npx create-nuxt-app",
       n2: "npm install --save-dev pug pug-plain-loader",
       n3: "npm install --save-dev sass sass-loader@10 fibers ",
@@ -592,12 +594,18 @@ const state = () => ({
       }`
     },
     {
-      id: 2,
+      id: "Vite",
       img: "2.png",
       title: "Vite",
-      text: "Vite Guid Quick Start up",
-      text1: "Create Nuxt App",
-      n1: "npm vite@latest"
+
+      text: "Vite Quick Start up Guide  "
+    },
+    {
+      id: "Third-js",
+      img: "3.png",
+      title: "Third-js",
+
+      text: "Third-js Quick Start up Guide  "
     }
   ],
 

@@ -87,6 +87,7 @@ export default {
         { text: "Home", icon: "mdi-home", url: "/" },
         { text: "Sources", icon: "mdi-account", url: "/Sources" },
         { text: "Projects", icon: "mdi-file", url: "/Projects" },
+        { text: "Schemes", icon: "mdi-format-list-checks", url: "/Schemes" },
       ],
     };
   },
